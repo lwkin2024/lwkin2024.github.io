@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>乐活星球</title>
+  
+  <subtitle>分享健康与数字生活</subtitle>
+  <link href="https://blog.lohas.fun/atom.xml" rel="self"/>
+  
+  <link href="https://blog.lohas.fun/"/>
+  <updated>2024-12-23T06:38:25.445Z</updated>
+  <id>https://blog.lohas.fun/</id>
+  
+  <author>
+    <name>乐活星球</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>text2</title>
+    <link href="https://blog.lohas.fun/lohas/text2/"/>
+    <id>https://blog.lohas.fun/lohas/text2/</id>
+    <published>2024-12-23T06:38:25.000Z</published>
+    <updated>2024-12-23T06:38:25.445Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>text1</title>
+    <link href="https://blog.lohas.fun/lohas/text1/"/>
+    <id>https://blog.lohas.fun/lohas/text1/</id>
+    <published>2024-12-23T06:38:14.000Z</published>
+    <updated>2024-12-23T06:38:14.544Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+</feed>
