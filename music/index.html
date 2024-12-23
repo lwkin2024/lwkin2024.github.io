@@ -10,7 +10,7 @@ for (let i of mdate) {
         document.documentElement.classList.add('memorial');
     }
 }
-</script><script>(()=>{
+</script><link rel="stylesheet" href="/css/custom/schedule.css"><script>(()=>{
         const saveToLocal = {
             set: function setWithExpiry(key, value, ttl) {
                 if (ttl === 0)
@@ -193,7 +193,7 @@ setTimeout(() => {
 utils.addGlobalFn('pjaxSend', () => {
   Pace.restart()
 }, 'pace_restart')
-</script><script src="https://fastly.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><div class="js-pjax"><script>mermaid.run();</script><script defer pjax src="https://fastly.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.min.js"></script></div></div><!-- pjax--><script>const pjax = new Pjax({
+</script><script src="https://fastly.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><script src="/js/custom/schedule.js"></script><script src="https://open.lightxi.com/unpkg/chinese-lunar@0.1.4/lib/chinese-lunar.js"></script><div class="js-pjax"><script>mermaid.run();</script><script defer pjax src="https://fastly.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.min.js"></script></div></div><!-- pjax--><script>const pjax = new Pjax({
     elements: 'a:not([target="_blank"])',
     selectors: ["title","#body-wrap","#site-config","meta[name=\"description\"]",".js-pjax","meta[property^=\"og:\"]","#config-diff",".rs_show",".rs_hide"],
     cacheBust: false,

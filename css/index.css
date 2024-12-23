@@ -5827,12 +5827,12 @@ span.tags-punctuation {
   }
   .topGroup .todayCard .todayCard-info .todayCard-tips {
     opacity: 0.8;
-    font-size: 0.6rem;
-  }
-  .topGroup .todayCard .todayCard-info .todayCard-title {
     font-size: 28px;
     font-weight: 700;
     line-height: 36px;
+  }
+  .topGroup .todayCard .todayCard-info .todayCard-title {
+    font-size: 0.6rem;
   }
   .topGroup .todayCard .todayCard-cover {
     position: absolute;
