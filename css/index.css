@@ -5678,7 +5678,7 @@ span.tags-punctuation {
   margin-top: 0;
   display: flex;
   flex-wrap: wrap;
-  animation: rowup 60s linear infinite;
+  animation: rowup 15s linear infinite;
   width: 300px;
   margin-left: auto;
 }
@@ -5802,15 +5802,17 @@ span.tags-punctuation {
     display: flex;
     cursor: pointer;
     pointer-events: all;
+    box-shadow: 0 -109px 133px -9px #51a4f4 inset;
   }
-  .topGroup .todayCard::after {
+  .topGroup .todayCard::before {
     position: absolute;
     content: '';
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    box-shadow: 0 -109px 133px -9px none inset;
+    z-index: 1;
+    box-shadow: 0 -109px 133px -9px #51a4f4 inset;
   }
   .topGroup .todayCard.hide {
     opacity: 0;
@@ -5820,16 +5822,17 @@ span.tags-punctuation {
     position: absolute;
     bottom: 2rem;
     left: 2rem;
-    z-index: 2;
+    z-index: 4;
     color: var(--efu-white);
     max-width: 60%;
     transition: 0.3s;
   }
   .topGroup .todayCard .todayCard-info .todayCard-tips {
     opacity: 0.8;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 40px;
+    color: var(--efu-white);
   }
   .topGroup .todayCard .todayCard-info .todayCard-title {
     font-size: 0.6rem;
@@ -5912,6 +5915,15 @@ span.tags-punctuation {
 }
 .banners-link-title {
   margin: 0 0.1rem 0 0.5rem;
+}
+@media (max-width: 768px) {
+  .banners-links {
+    flex-direction: row;
+    height: auto;
+  }
+  .banners-link-btn {
+    margin-bottom: 0;
+  }
 }
 #category-bar {
   padding: 0.4rem 0.7rem;
