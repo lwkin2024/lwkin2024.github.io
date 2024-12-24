@@ -10967,3 +10967,11 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
 .OwO .OwO-body .OwO-bar .OwO-packages li {
   line-height: 45px !important;
 }
+body {
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
